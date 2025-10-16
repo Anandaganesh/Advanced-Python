@@ -1,5 +1,5 @@
 def pair_sum_sorted(lst, sum):
-    if len(lst) >= 2:
+    if len(lst) > 1:
         i = 0
         j = len(lst) - 1
 
